@@ -1,0 +1,15 @@
+name: CommandSpy
+main: commandspy\Main
+version: 1.0.0
+api: [1.13.0, 2.0.0, 3.0.0-ALPHA7]
+author: mathiascode
+description: A plugin for PocketMine that displays commands executed by other players in the chat.
+
+commands:
+  commandspy:
+    description: Enables or disables CommandSpy
+    aliases: [c,cs,cspy]
+permissions:
+   commandspy.command:
+    default: op
+ 
